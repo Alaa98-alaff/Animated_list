@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Pangolin", cursive;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.team {
+  width: 250px;
+  height: 250px;
+  border: 4px solid rgb(197, 71, 71);
+  margin: 20px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.team:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team__leader {
+  border-bottom: 1px solid black;
+  width: 140px;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: -20px;
+}
+
+.team__assis {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.team__members {
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.team__member {
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 3000ms;
+}
+
+.orange {
+  border-color: orange;
+  /* background-color: orange; */
+}
+
+.red {
+  border-color: red;
+}
+
+.black {
+  border-color: black;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.green {
+  border-color: green;
+}
+
+.yellow {
+  border-color: yellow;
+}
+
+.pink {
+  border-color: pink;
+}
+
+.orange {
+  border-color: orange;
+}
