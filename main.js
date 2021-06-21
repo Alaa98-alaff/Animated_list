@@ -51,13 +51,13 @@ let data = [
     id: 9,
     name: "Aycan",
     assistant: true,
-    group: "Fuscia",
+    group: "Fuchsia",
   },
   {
     id: 10,
     name: "Aykut Şahin",
     assistant: true,
-    group: "Puce",
+    group: "blue",
   },
   {
     id: 11,
@@ -87,7 +87,7 @@ let data = [
     id: 15,
     name: "Alaa Alaff",
     assistant: false,
-    group: "Fuscia",
+    group: "Fuchsia",
   },
   {
     id: 16,
@@ -129,7 +129,7 @@ let data = [
     id: 22,
     name: "dana alhameed",
     assistant: false,
-    group: "Puce",
+    group: "blue",
   },
   {
     id: 23,
@@ -165,7 +165,7 @@ let data = [
     id: 28,
     name: "Feras Alkilani",
     assistant: false,
-    group: "Fuscia",
+    group: "Fuchsia",
   },
   {
     id: 29,
@@ -267,7 +267,7 @@ let data = [
     id: 45,
     name: "Parahat Nepesov",
     assistant: false,
-    group: "Puce",
+    group: "blue",
   },
   {
     id: 46,
