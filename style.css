@@ -11,10 +11,11 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .team {
-  width: 205px;
+  width: 180px;
   height: 300px;
   border: 4px solid red;
   margin: 20px;
@@ -43,14 +44,14 @@ main {
 .team__assis {
   text-align: center;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .team__member {
   font-weight: 600;
   letter-spacing: 1px;
   padding-top: 5px;
-  font-size: 18px;
+  font-size: 14px;
   opacity: 0;
   visibility: hidden;
 }
@@ -67,17 +68,17 @@ main {
   margin: auto;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .team {
-    width: 140px;
+    width: 150px;
     height: 260px;
-    margin: 20px;
+    margin: 15px;
   }
 
   .team__assis {
     text-align: center;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .team__member {
